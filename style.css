@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Montserrat:ital,wght@1,300&display=swap');
+
+:root{ /*Variable à utiliser partout*/
+    --violet: #d33bfd;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+header{
+    background: linear-gradient( #13181d, #20212e, #341b47);
+}
+header nav{
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    margin: 0;
+    text-transform: uppercase; /* Met le texte en magiscule*/
+    color: var(--violet);
+}
+header nav .right{
+    display: flex;
+}
